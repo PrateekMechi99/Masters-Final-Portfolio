@@ -1,0 +1,43 @@
+---
+title: "Final_Project_Mechineni_Prateek"
+output: html_document
+date: "2023-04-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+```{r}
+#Prep Work
+require(data.table)
+require(magrittr)
+require(MCMCpack)
+require(BayesFactor)
+setwd("C:\\Users\\Prateek\\Documents\\Masters Homework Folder\\IST7720")
+load("allSchoolsReportStatus.RData")
+load("usVaccines.RData")
+load("districts25.RData")
+
+
+
+```
+
+```{r warning=FALSE}
+##Question 1: 
+plot.ts(usVaccines)
+
+```
+
+
+
+
+
+```{r pressure, echo=FALSE}
+```
+
